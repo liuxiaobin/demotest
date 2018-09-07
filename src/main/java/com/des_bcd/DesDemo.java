@@ -25,8 +25,7 @@ public class DesDemo {
         String result = DesDemo.encrypt(str);
 
         BASE64Encoder base64en = new BASE64Encoder();
-//        String strs = new String(base64en.encode(result));
-
+       // String strs = new String(base64en.encode(result.getBytes()));
         System.out.println("加密后：" + result);
         //直接将如上内容解密
         try {
@@ -47,8 +46,9 @@ public class DesDemo {
      */
     public static String encrypt(String data) {  //对string进行BASE64Encoder转换
         byte[] bt = encryptByKey(data.getBytes(), password);
-        BASE64Encoder base64en = new BASE64Encoder();
-        String strs = new String(base64en.encode(bt));
+       // BASE64Encoder base64en = new BASE64Encoder();
+       // String strs = new String(base64en.encode(bt));
+        String strs = new String(bt);
         return strs;
     }
 
@@ -76,9 +76,10 @@ public class DesDemo {
      */
     private static byte[] encryptByKey(byte[] datasource, String key) {
         try {
-            SecureRandom random = new SecureRandom();
-
+             SecureRandom random = new SecureRandom();
             DESKeySpec desKey = new DESKeySpec(key.getBytes());
+            //设置偏移量
+            //IvParameterSpec iv = new IvParameterSpec(key.getBytes());
             //创建一个密匙工厂，然后用它把DESKeySpec转换成
             SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
             SecretKey secureKey = keyFactory.generateSecret(desKey);
@@ -106,6 +107,8 @@ public class DesDemo {
     private static byte[] decrypt(byte[] src, String key) throws Exception {
         // DES算法要求有一个可信任的随机数源
         SecureRandom random = new SecureRandom();
+        // 初始化向量
+        //IvParameterSpec iv = new IvParameterSpec(key.getBytes());
         // 创建一个DESKeySpec对象
         DESKeySpec desKey = new DESKeySpec(key.getBytes());
         // 创建一个密匙工厂
@@ -118,5 +121,29 @@ public class DesDemo {
         cipher.init(Cipher.DECRYPT_MODE, securekey, random);
         // 真正开始解密操作
         return cipher.doFinal(src);
+    }
+
+    public static String strTo16(String s) {
+        String str = "";
+        for (int i = 0; i < s.length(); i++) {
+            int ch = (int) s.charAt(i);
+            String s4 = Integer.toHexString(ch);
+            str = str + s4;
+        }
+        return str;
+    }
+
+    /**
+     * 字符串转换unicode
+     */
+    public static String string2Unicode(String string) {
+        StringBuffer unicode = new StringBuffer();
+        for (int i = 0; i < string.length(); i++) {
+        // 取出每一个字符
+            char c = string.charAt(i);
+            // 转换为unicode
+            unicode.append("\\u" + Integer.toHexString(c));
+        }
+        return unicode.toString();
     }
 }

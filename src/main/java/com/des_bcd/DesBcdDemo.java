@@ -8,8 +8,9 @@ package com.des_bcd;
  */
 public class DesBcdDemo {
     public static void main(String[] args) {
-        byte[] b = str2Bcd("11");
-        System.out.println(bcd2Str(b));
+       // byte[] b = str2Bcd("11");
+         String b="ADAB";
+        System.out.println(HextoBcd(b));
     }
 
     /**
@@ -67,5 +68,39 @@ public class DesBcdDemo {
         }
         return bbt;
     }
+    /**
+     * 10进制转bcd
+     * @param str 10进制数字 String.valueOf(int number);将10进制数字转成字符串传入此参数
+     * @return bcd码
+     */
+    public static String DecimaltoBcd(String str){
+        String b_num="";
+        for (int i = 0; i < str.length(); i++) {
 
+            String b = Integer.toBinaryString(Integer.parseInt(str.valueOf(str.charAt(i))));
+
+            int b_len=4-b.length();
+
+            for(int j=0;j<b_len;j++){
+                b="0"+b;
+            }
+            b_num+=b;
+        }
+
+        return b_num;
+    }
+    /**
+     * 16进制转bcd
+     * 将16进制转成10进制，再将10进制转成bcd
+     * @param hex 16进制数字String.valueOf(int number);这里忽略16进制的前缀0x，只转后面的数字为字符串类型，将16进制数字转成字符串传入此参数
+     * @return bcd码
+     */
+    public static String HextoBcd(String hex){
+
+        int decimal = Integer.parseInt(hex,16);
+
+        String bcd = DecimaltoBcd(String.valueOf(decimal));
+
+        return bcd;
+    }
 }
