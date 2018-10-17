@@ -9,7 +9,7 @@ package com.des_bcd;
 public class DesBcdDemo {
     public static void main(String[] args) {
        // byte[] b = str2Bcd("11");
-         String b="ADAB";
+        String b="ADAB";
         System.out.println(HextoBcd(b));
     }
 

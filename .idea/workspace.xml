@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java" line="28" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="45f573b7-95e2-4c91-a6ef-f0e8dc5f19a8" name="Default" comment="">
+    <list default="true" id="bb6c320f-9ac2-4e4e-a577-35fc264700de" name="Default" comment="提交">
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/element/TestIfDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/innerclass/TestInner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lombok/LombokTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/operator/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java" afterDir="false" />
     </list>
@@ -20,48 +31,11 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demotest" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="JlxDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JlxDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DesBcdDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DesDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,29 +46,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>des</find>
-      <find>getInstance</find>
-      <find>password</find>
-      <find>keyIvParameterSpec</find>
-      <find>base64</find>
+      <find>String</find>
+      <find>decrypt_3des</find>
+      <find>hexString</find>
+      <find>PBE</find>
+      <find>ALGORITHM</find>
+      <find>stradd</find>
+      <find>16进制</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="liuxiaobin &lt;305912675@qq&gt;" />
-        <option value="lxb" />
       </list>
     </option>
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/ArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/des_bcd/ByteToHexAndHexToByte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log4j/log4j.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/operator/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/element/MoneyToBig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/element/ElementExpressdion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/element/TestIfDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/innerclass/TestInner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/innerclass/TestInner2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lombok/LombokTest.java" />
       </list>
     </option>
   </component>
@@ -106,43 +93,11 @@
         <option name="userSettingsFile" value="E:\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demotest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demotest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demotest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demotest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demotest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-187" />
@@ -175,12 +130,70 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <autoscrollToSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="demotest" type="cbb8eebc:String" user="demotest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main/java" type="cbb8eebc:String" user="main/java" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="com/log4j" type="cbb8eebc:String" user="com/log4j" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demotest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="demotest" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +234,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="des_bcd" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +257,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.gitosc" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideawork\demotest\src" />
+      <recent name="E:\ideawork\demotest\src\main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,22 +277,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesDemo">
+  <component name="RunManager" selected="Application.LombokTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="DesBcdDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.des_bcd.DesBcdDemo" />
+    <configuration name="ElementExpressdion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.element.ElementExpressdion" />
       <module name="demotest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.des_bcd.DesDemo" />
+    <configuration name="LombokTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lombok.LombokTest" />
       <module name="demotest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="JlxDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jlx.JlxDemo1" />
+    <configuration name="TestIfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.element.TestIfDemo" />
+      <module name="demotest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.TestInner" />
+      <module name="demotest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestInner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerclass.TestInner2" />
       <module name="demotest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -303,232 +332,525 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <list>
-      <item itemvalue="Application.JlxDemo1" />
-      <item itemvalue="Application.DesDemo" />
-      <item itemvalue="Application.DesBcdDemo" />
+      <item itemvalue="Application.ElementExpressdion" />
+      <item itemvalue="Application.TestIfDemo" />
+      <item itemvalue="Application.TestInner" />
+      <item itemvalue="Application.TestInner2" />
+      <item itemvalue="Application.LombokTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesDemo" />
-        <item itemvalue="Application.DesBcdDemo" />
-        <item itemvalue="Application.JlxDemo1" />
+        <item itemvalue="Application.LombokTest" />
+        <item itemvalue="Application.TestInner2" />
+        <item itemvalue="Application.TestInner" />
+        <item itemvalue="Application.TestIfDemo" />
+        <item itemvalue="Application.ElementExpressdion" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
+  <component name="SvnConfiguration">
     <configuration>C:\Users\lenovo\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45f573b7-95e2-4c91-a6ef-f0e8dc5f19a8" name="Default" comment="" />
-      <created>1536220931484</created>
+      <changelist id="bb6c320f-9ac2-4e4e-a577-35fc264700de" name="Default" comment="" />
+      <created>1536312831889</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536220931484</updated>
-      <workItem from="1536220936647" duration="112000" />
-      <workItem from="1536221101934" duration="34000" />
-      <workItem from="1536221205664" duration="3887000" />
-      <workItem from="1536226436785" duration="878000" />
-      <workItem from="1536228287110" duration="865000" />
-      <workItem from="1536229156788" duration="478000" />
-      <workItem from="1536287582524" duration="7300000" />
+      <updated>1536312831889</updated>
+      <workItem from="1536312833780" duration="12206000" />
+      <workItem from="1536580289652" duration="11524000" />
+      <workItem from="1536976223825" duration="3088000" />
+      <workItem from="1537165198238" duration="1984000" />
+      <workItem from="1537326562211" duration="1222000" />
+      <workItem from="1537346320920" duration="588000" />
+      <workItem from="1537410037664" duration="4432000" />
+      <workItem from="1537427589293" duration="20000" />
+      <workItem from="1537441359686" duration="16000" />
+      <workItem from="1537442452381" duration="663000" />
+      <workItem from="1537859075037" duration="1477000" />
+      <workItem from="1537929386674" duration="806000" />
+      <workItem from="1537953982578" duration="669000" />
+      <workItem from="1538123104354" duration="1196000" />
+      <workItem from="1538183838411" duration="12312000" />
+      <workItem from="1538964018389" duration="641000" />
+      <workItem from="1539072287203" duration="3983000" />
+      <workItem from="1539077441129" duration="1208000" />
+      <workItem from="1539761844419" duration="569000" />
     </task>
-    <task id="LOCAL-00001" summary="测试git">
-      <created>1536228764106</created>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1536657467667</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1536228764106</updated>
+      <updated>1536657467667</updated>
     </task>
-    <task id="LOCAL-00002" summary="测试git">
-      <created>1536229593999</created>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1538203812781</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1536229593999</updated>
+      <updated>1538203812781</updated>
     </task>
-    <task id="LOCAL-00003" summary="测试git">
-      <created>1536229627300</created>
+    <task id="LOCAL-00003" summary="提交">
+      <created>1538299582454</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1536229627300</updated>
+      <updated>1538299582454</updated>
     </task>
-    <task id="LOCAL-00004" summary="测试git">
-      <created>1536289522856</created>
+    <task id="LOCAL-00004" summary="提交">
+      <created>1539762173963</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1536289522856</updated>
+      <updated>1539762173964</updated>
     </task>
-    <task id="LOCAL-00005" summary="DesBcdDemo">
-      <created>1536289627747</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1536289627747</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13554000" />
+    <option name="totallyTimeSpent" value="58604000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502584" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.500646" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32945737" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.25387597" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.498708" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49741602" weight="0.2503536" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27390182" />
-      <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499354" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.33074936" />
+      <window_info anchor="bottom" id="Problems" order="7" weight="0.32956153" />
+      <window_info id="JRebel" order="2" sideWeight="0.5007072" side_tool="true" weight="0.25387597" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="SVN Repositories" order="7" visible="true" weight="0.32956153" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007072" side_tool="true" weight="0.25387597" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="测试git" />
-    <MESSAGE value="DesBcdDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="DesBcdDemo" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/des_bcd/ByteToHexAndHexToByte.java</url>
+          <line>113</line>
+          <properties class="com.des_bcd.ByteToHexAndHexToByte" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="945">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="147">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lombok/LombokTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="94" lean-forward="true" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jlx/JlxDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/CipherCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/misc/CharacterEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        <state relative-caret-position="462">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/ElementExpressdion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7728">
+          <caret line="376" column="34" selection-start-line="376" selection-start-column="33" selection-end-line="376" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/TestIfDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/ElementExpressdion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7896">
+          <caret line="376" column="34" selection-start-line="376" selection-start-column="33" selection-end-line="376" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/TestIfDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="488" column="11" selection-start-line="488" selection-start-column="11" selection-end-line="488" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/jre/lib/jce.jar!/javax/crypto/SecretKeyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/ArrayDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesBcdDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1299">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="231" column="25" selection-start-line="231" selection-start-column="25" selection-end-line="231" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/ByteToHexAndHexToByte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1133">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4j/log4j.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/FileAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/DailyRollingFileAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/log4j/Log4jDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="128" column="2" lean-forward="true" selection-start-line="128" selection-start-column="2" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/MoneyToBig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/ElementExpressdion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/des_bcd/DesDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7728">
+          <caret line="376" column="34" selection-start-line="376" selection-start-column="33" selection-end-line="376" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/element/TestIfDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/innerclass/TestInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/innerclass/TestInner2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lombok/LombokTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -607,7 +929,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: log4j:log4j:1.2.14</last-edited>
+          <last-edited>Maven: commons-logging:commons-logging:1.1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

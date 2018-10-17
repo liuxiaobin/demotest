@@ -25,12 +25,15 @@ public class DesDemo {
         String result = DesDemo.encrypt(str);
 
         BASE64Encoder base64en = new BASE64Encoder();
-       // String strs = new String(base64en.encode(result.getBytes()));
+        // String strs = new String(base64en.encode(result.getBytes()));
         System.out.println("加密后：" + result);
         //直接将如上内容解密
         try {
-            String decryResult = DesDemo.decryptor(result);
-            System.out.println("解密后：" + new String(decryResult));
+            String a = "6889500160663511";
+            byte[] b = toBytes(a);
+            System.out.println("111："+new String(b,"GBK"));
+           /* String decryResult = DesDemo.decryptor(result);
+            System.out.println("解密后：" + new String(decryResult));*/
         } catch (Exception e1) {
             e1.printStackTrace();
         }
@@ -46,8 +49,8 @@ public class DesDemo {
      */
     public static String encrypt(String data) {  //对string进行BASE64Encoder转换
         byte[] bt = encryptByKey(data.getBytes(), password);
-       // BASE64Encoder base64en = new BASE64Encoder();
-       // String strs = new String(base64en.encode(bt));
+        // BASE64Encoder base64en = new BASE64Encoder();
+        // String strs = new String(base64en.encode(bt));
         String strs = new String(bt);
         return strs;
     }
@@ -76,7 +79,7 @@ public class DesDemo {
      */
     private static byte[] encryptByKey(byte[] datasource, String key) {
         try {
-             SecureRandom random = new SecureRandom();
+            SecureRandom random = new SecureRandom();
             DESKeySpec desKey = new DESKeySpec(key.getBytes());
             //设置偏移量
             //IvParameterSpec iv = new IvParameterSpec(key.getBytes());
@@ -84,9 +87,9 @@ public class DesDemo {
             SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
             SecretKey secureKey = keyFactory.generateSecret(desKey);
             //Cipher对象实际完成加密操作
-            Cipher cipher = Cipher.getInstance("DES");
+            Cipher cipher = Cipher.getInstance("DES/ECB/NoPadding");
             //用密匙初始化Cipher对象
-            cipher.init(Cipher.ENCRYPT_MODE, secureKey, random);
+            cipher.init(Cipher.ENCRYPT_MODE, secureKey);
             //现在，获取数据并加密
             //正式执行加密操作
             return cipher.doFinal(datasource);
@@ -110,13 +113,13 @@ public class DesDemo {
         // 初始化向量
         //IvParameterSpec iv = new IvParameterSpec(key.getBytes());
         // 创建一个DESKeySpec对象
-        DESKeySpec desKey = new DESKeySpec(key.getBytes());
+        DESKeySpec desKey = new DESKeySpec(key.getBytes("GBK"));
         // 创建一个密匙工厂
         SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
         // 将DESKeySpec对象转换成SecretKey对象
         SecretKey securekey = keyFactory.generateSecret(desKey);
         // Cipher对象实际完成解密操作
-        Cipher cipher = Cipher.getInstance("DES");
+        Cipher cipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
         // 用密匙初始化Cipher对象
         cipher.init(Cipher.DECRYPT_MODE, securekey, random);
         // 真正开始解密操作
@@ -139,11 +142,31 @@ public class DesDemo {
     public static String string2Unicode(String string) {
         StringBuffer unicode = new StringBuffer();
         for (int i = 0; i < string.length(); i++) {
-        // 取出每一个字符
+            // 取出每一个字符
             char c = string.charAt(i);
             // 转换为unicode
             unicode.append("\\u" + Integer.toHexString(c));
         }
         return unicode.toString();
+    }
+
+    /**
+     * 将16进制字符串转换为byte[]
+     *
+     * @param str
+     * @return
+     */
+    public static byte[] toBytes(String str) {
+        if (str == null || str.trim().equals("")) {
+            return new byte[0];
+        }
+
+        byte[] bytes = new byte[str.length() / 2];
+        for (int i = 0; i < str.length() / 2; i++) {
+            String subStr = str.substring(i * 2, i * 2 + 2);
+            bytes[i] = (byte) Integer.parseInt(subStr, 16);
+        }
+
+        return bytes;
     }
 }
